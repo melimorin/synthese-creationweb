@@ -105,3 +105,22 @@ body {
 .col-padding-right {
     padding-right: 11px;
 }
+
+.position-relative {
+    position: relative;
+}
+
+.sous-titre {
+    position: absolute;
+    bottom: 7rem;
+    left: 30px;
+    color: #fff;
+}
+
+.texte {
+    position: absolute;
+    bottom: 5px;
+    left: 30px;
+    right: 150px;
+    color: #fff;
+}
