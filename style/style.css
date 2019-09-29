@@ -15,6 +15,10 @@ body .nav-text li a {
   color: #fff;
 }
 
+.hero-section1 {
+  height: 100vh;
+}
+
 .navbar-dark .navbar-nav .nav-link {
   color: white;
 }
@@ -33,12 +37,19 @@ body .nav-text li a {
 }
 
 .hero-image {
-  position: fixed;
+  position: absolute;
+  height: 100vh;
+  top: 0;
   right: 0;
-  bottom: 0;
   min-width: 100%;
-  min-height: 100%;
   z-index: -1;
+}
+
+.hero-image video {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .texte-hero {
@@ -70,7 +81,24 @@ body .nav-text li a {
   border: 2px solid #fff;
 }
 
-.new1 {
-  width: 15rem;
+.actualite1 {
+  height: 100vh;
+  color: #000;
+}
+
+.actualite1 .new1 {
+  width: 100%;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.col-margin-bottom {
+  margin-bottom: 27px;
+}
+
+.col-padding-right {
+  padding-right: 11px;
 }
 /*# sourceMappingURL=style.css.map */
