@@ -110,6 +110,10 @@ body {
     position: relative;
 }
 
+.titre-margin {
+    margin-top: 5rem;
+}
+
 .sous-titre {
     position: absolute;
     bottom: 7rem;
@@ -124,3 +128,65 @@ body {
     right: 150px;
     color: #fff;
 }
+
+.sous-titre1 {
+    position: absolute;
+    bottom: 5rem;
+    left: 30px;
+    color: #fff;
+}
+
+.sous-titre2 {
+    position: absolute;
+    top: 5rem;
+}
+
+.texte1 {
+    position: absolute;
+    bottom: 24px;
+    left: 30px;
+    right: 150px;
+    color: #fff;
+}
+.texte2 {
+    position: absolute;
+    bottom: 35rem;
+    left: 30px;
+    right: 150px;
+    color: #fff;
+}
+
+.texte-bouton {
+    position: absolute;
+    bottom: 25rem;
+    left: 30px;
+    right: 150px;
+
+}
+.card-position {
+    position: relative;
+    bottom: 25rem;
+    padding: 0;
+}
+
+.card-position2 {
+    position: absolute;
+    bottom: 25rem;
+    padding: 0;
+}
+
+.thumbnail {
+    margin-top: 25px;
+}
+.col-margin-right-sect2 {
+    margin-right: 20px;
+}
+
+.img-splash {
+    background-image: url(/medias/images/game-splash.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
