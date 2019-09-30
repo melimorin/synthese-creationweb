@@ -134,7 +134,7 @@ body .nav-text li a {
 
 .sous-titre2 {
   position: absolute;
-  top: 5rem;
+  top: 8rem;
 }
 
 .texte1 {
@@ -147,7 +147,7 @@ body .nav-text li a {
 
 .texte2 {
   position: absolute;
-  bottom: 35rem;
+  top: 12rem;
   left: 30px;
   right: 150px;
   color: #fff;
@@ -155,9 +155,18 @@ body .nav-text li a {
 
 .texte-bouton {
   position: absolute;
-  bottom: 25rem;
+  top: 22rem;
   left: 30px;
   right: 150px;
+}
+
+.white-card {
+  background-color: #fff;
+  color: #000;
+}
+
+.white-card a {
+  color: blue;
 }
 
 .card-position {
@@ -168,7 +177,7 @@ body .nav-text li a {
 
 .card-position2 {
   position: absolute;
-  bottom: 25rem;
+  top: 30rem;
   padding: 0;
 }
 
@@ -186,5 +195,11 @@ body .nav-text li a {
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
+}
+
+.footer {
+  background-color: #000;
+  width: 100%;
+  height: 50px;
 }
 /*# sourceMappingURL=style.css.map */
