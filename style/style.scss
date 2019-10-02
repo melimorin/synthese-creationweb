@@ -137,25 +137,13 @@ body {
     color: #fff;
 }
 
-@media screen and (max-width: 576px) {
-    .texte { 
-        font-size: 12px;
-        }
-    .sous-titre-bloc1-actu {
-        bottom: 9rem;
-    }
-    .bloc1-actu-mobile {
-        margin-bottom: 27px;
-        padding-left: 14px;
-        padding-right: 6px;
-    }
-}
 .sous-titre1 {
     position: absolute;
     bottom: 5rem;
     left: 30px;
     color: #fff;
 }
+                        
 
 .sous-titre2 {
     position: absolute;
@@ -164,6 +152,7 @@ body {
 
 .texte1 {
     position: absolute;
+    width: 75%;
     bottom: 24px;
     left: 30px;
     right: 150px;
@@ -171,6 +160,7 @@ body {
 }
 .texte2 {
     position: absolute;
+    width: 75%;
     top: 12rem;
     left: 30px;
     right: 150px;
@@ -226,4 +216,16 @@ body {
     height: 15rem;
 
 }
-
+@media screen and (max-width: 576px) {
+    .texte { 
+        font-size: 12px;
+        }
+    .sous-titre-bloc1-actu {
+        bottom: 9rem;
+    }
+    .bloc1-actu-mobile {
+        margin-bottom: 27px;
+        padding-left: 14px;
+        padding-right: 6px;
+    }
+}
