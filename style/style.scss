@@ -1,5 +1,6 @@
 $font: Roboto, sans-serif;
 
+
 body {
     font-family: $font;
     color: #fff;
@@ -14,6 +15,18 @@ body {
 
         }
     }
+}
+
+.col {
+    padding: 0;
+}
+
+.sub-sub-title {
+    font-size: 14px;
+}
+
+.small-text {
+    font-size: 12px;
 }
 
 .hero-section1 {
@@ -228,4 +241,9 @@ body {
         padding-left: 14px;
         padding-right: 6px;
     }
+}
+@media screen and (max-width: 576px) {
+    .texte-hero { 
+        width: 100%;
+        }
 }

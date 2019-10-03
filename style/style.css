@@ -15,6 +15,18 @@ body .nav-text li a {
   color: #fff;
 }
 
+.col {
+  padding: 0;
+}
+
+.sub-sub-title {
+  font-size: 14px;
+}
+
+.small-text {
+  font-size: 12px;
+}
+
 .hero-section1 {
   min-height: 50vh;
 }
@@ -224,6 +236,12 @@ body .nav-text li a {
     margin-bottom: 27px;
     padding-left: 14px;
     padding-right: 6px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .texte-hero {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */
