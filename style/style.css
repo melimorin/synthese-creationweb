@@ -219,7 +219,7 @@ body .nav-text li a {
 }
 
 .img-splash {
-  background-image: url(/medias/images/game-splash.jpg);
+  background-image: url(../medias/images/game-splash.jpg);
   min-width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -288,7 +288,7 @@ body .nav-text li a {
 }
 
 .logo-partenaire {
-  background-image: url(/medias/images/icons.png);
+  background-image: url(../medias/images/icons.png);
   width: 94px;
   height: 38px;
   background-repeat: no-repeat;
